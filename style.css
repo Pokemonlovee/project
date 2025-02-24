@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body
+{
+    background:url() ;
+    height: 90vh;
+}
+.logo
+{
+    font-size: 15px;
+    margin:1rem;
+
+}
+.logo
+{
+    display:flex;
+    justify-content: space-between;
+}
+.logo1
+{
+    font-size: 23px;
+    margin:1rem;
+
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.cards
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.card1
+{
+    width: 350px;
+    height: 400px;
+    transition: all .4s ease-in-out;
+    background: url('https://imgs.search.brave.com/WbK-KpeCB4L9gWUmiUTO4xi8BxMkQ7rTqnaBKeIcevE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjM2/MjcxOTE4L3Bob3Rv/L3BoZXdhLWxha2Ut/aW4tcG9raGFyYS1u/ZXBhbC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9Um0tM1Jo/WVNPRzFTWFd0d1Vz/Y0trOTRWaUNIMTF4/WHlDSDBYZjhiTHhU/ST0');
+    background-size: cover;
+}
+
+.card2
+{
+    background: url('https://imgs.search.brave.com/hnqQd4jSMT2TYrwNlSGlz-Z6iA0xnd6IOfR1qhZ_1u8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy81/LzU4L0thZ2Rlbmks/X011c3RhbmcsX05l/cGFsLmpwZw');
+    background-size: cover;
+    width: 350px;
+    height: 400px;
+    transition: all .4s ease-in-out;
+    background-size: cover;
+}
+.card3
+{
+    width: 350px;
+    height: 400px;
+    transition: all .4s ease-in-out;
+    background: url('https://imgs.search.brave.com/jmlg_xR__K3NlLcOGDdxEN5PDqxDBA29tecDYYVCfTA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hbmF1/dGhvc2F0eWEuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI0/LzEwL2UyOGQ4ZDQx/LWRjMzYtNDVkNy05/ODAxLTc2YzFkZTcy/MWU3OC02NDB4ODAw/LmpwZw');
+    object-fit: cover;
+}
+.card1:hover,.card2:hover, .card3:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card1,.card2,.card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: 20px;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.footer
+{
+width: 100%;
+height: 200px;
+background-color: #212121;
+display: flex;
+color: white;
+justify-content: space-between;
+align-items: center;
+padding:0 2rem;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.image{
+    object-fit: cover;
+}
+.Link
+{
+    text-decoration: underline;
+}
+.links
+{
+    display:flex;
+    gap:8px;
+}
